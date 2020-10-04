@@ -1,0 +1,88 @@
+body{
+  font-family: 'Oswald';
+}
+#header {
+    padding: 20px;
+    text-align: center;
+    color: #DAF1FC;
+    width: 99%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 28px;
+}
+h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+#img {
+    display: block;
+    float: left;
+    margin: 10px;
+    width:80px;
+}
+#img1 {
+    display: block;
+    width: 80px;
+    float: right;
+    margin: 10px;
+
+}
+#c1 {
+    background-color: blue;
+}
+#actress {
+    display: inline-block;
+    margin: 14px;
+  
+    
+}
+#actress1 {
+    margin:10px;
+    display: inline-block;
+    border-style: solid;
+    border-color:  #2C4762;
+    border: solid;
+}
+#head {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #2c4762;
+    position: sticky;
+    position: -webkit-sticky;
+
+  }
+#main {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  #text-actress{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+  }
+  #act-img{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #2c4762;
+    padding: 15px;
+    border-bottom-color: #BBBBBB;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-color:  #BBBBBB;
+    display: flex;
+  }
